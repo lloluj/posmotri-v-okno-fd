@@ -218,7 +218,7 @@ html {
   text-decoration: underline;
 }
 .search-form__label-text {
-  margin-left: 1.5px;
+  margin-left: 5px;
 }
 .button {
   background-color: transparent;
@@ -238,7 +238,7 @@ html {
 }
 .more-button {
   width: 100%;
-  min-height: 34px;
+  flex-shrink:0;
 }
 .button:hover {
   text-decoration: underline;
